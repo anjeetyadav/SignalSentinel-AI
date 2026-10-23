@@ -1,0 +1,53 @@
+PROJECT NAME
+SignalSentinel AI — Intelligent Business Early-Warning System
+
+PROJECT OBJECTIVE
+
+Build an end-to-end Data Analytics and Machine Learning system that analyses historical product sales, detects unusual sales patterns, and predicts the risk of future sales deterioration.
+
+The system will use historical sales data and relevant calendar and pricing information to identify products that may require further investigation.
+
+TECHNOLOGY STACK
+
+- SQL / PostgreSQL
+- Python
+- Pandas and NumPy
+- Exploratory Data Analysis
+- Statistics and hypothesis testing
+- Scikit-learn
+- Isolation Forest for anomaly detection
+- Classification models for predicting sales deterioration
+- Power BI, DAX, and Power Query
+- Git and GitHub
+
+PLANNED DATASET
+
+M5 Forecasting Accuracy dataset from Kaggle.
+
+BUSINESS GOAL
+
+Transform historical sales data into actionable business insights, identify potentially concerning sales patterns, and develop an evidence-based early-warning system.
+
+IMPORTANT PRINCIPLES
+
+- Validate the dataset before making assumptions.
+- Avoid data leakage during feature engineering and model training.
+- Use time-based validation where appropriate.
+- Compare machine learning models against simple baselines.
+- Evaluate models using appropriate metrics.
+- Support business recommendations with actual analytical findings.
+- Document limitations and ensure reproducibility.
+- Report only results that have been verified.
+
+EXPECTED DELIVERABLES
+
+1. Data quality assessment and cleaning.
+2. SQL-based business analysis.
+3. Python exploratory data analysis.
+4. Statistical analysis where appropriate.
+5. Sales anomaly detection.
+6. Predictive modeling and evaluation.
+7. Interactive Power BI dashboard.
+8. Evidence-based business recommendations.
+9. Professional GitHub repository and documentation.
+10. Resume-ready project descriptions based on completed work.
