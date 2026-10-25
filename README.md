@@ -39,10 +39,15 @@ Dataset source: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 ## Project Roadmap
 
 - [x] Define the project objective.
-- [ ] Set up the GitHub repository.
-- [ ] Download and inspect the dataset.
-- [ ] Perform data quality checks.
-- [ ] Conduct exploratory data analysis.
+- [x] Set up the GitHub repository and project structure.
+- [x] Download and inspect the dataset.
+- [x] Set up the Python environment and required libraries.
+- [x] Import sales and supporting datasets into PostgreSQL.
+- [x] Perform basic data quality checks.
+- [x] Analyze the sales distribution and zero-sales records.
+- [x] Verify product-store series and daily data coverage.
+- [ ] Export the complete daily sales trends to CSV.
+- [ ] Perform exploratory data analysis.
 - [ ] Develop SQL-based business analyses.
 - [ ] Engineer features and define the prediction target.
 - [ ] Implement and evaluate anomaly detection.
@@ -52,9 +57,9 @@ Dataset source: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
 ## Current Status
 
-Project initialization.
-
-The dataset, analytical methods, prediction target, and model performance have not yet been validated.
+Database setup, data import, and initial data quality checks are complete.
+Daily sales trend analysis is in progress. The complete trend export
+and subsequent analytical results are pending.
 
 ## Limitations
 
