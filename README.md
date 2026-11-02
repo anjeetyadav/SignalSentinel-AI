@@ -36,33 +36,47 @@ Dataset source: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 - Power BI, DAX, and Power Query
 - Git and GitHub
 
-## Project Roadmap
+## Project Progress
 
-- [x] Define the project objective.
-- [x] Set up the GitHub repository and project structure.
-- [x] Download and inspect the dataset.
-- [x] Set up the Python environment and required libraries.
-- [x] Import sales and supporting datasets into PostgreSQL.
-- [x] Perform basic data quality checks.
-- [x] Analyze the sales distribution and zero-sales records.
-- [x] Verify product-store series and daily data coverage.
-- [ ] Export the complete daily sales trends to CSV.
-- [ ] Perform exploratory data analysis.
-- [ ] Develop SQL-based business analyses.
-- [ ] Engineer features and define the prediction target.
-- [ ] Implement and evaluate anomaly detection.
-- [ ] Train and evaluate predictive models.
-- [ ] Build the Power BI dashboard.
-- [ ] Document findings and business recommendations.
+### Completed
 
-## Current Status
+* [x] Defined project objective and business problem.
+* [x] Created GitHub repository and project structure.
+* [x] Downloaded and inspected the M5 dataset.
+* [x] Performed initial data quality checks.
+* [x] Analyzed daily, weekly, monthly and yearly sales patterns.
+* [x] Investigated year-end sales patterns.
+* [x] Developed rule-based store decline detection.
+* [x] Investigated December 2014 store alerts.
+* [x] Investigated store calendar effects and widespread alerts.
+* [x] Implemented weekday-adjusted anomaly detection.
+* [x] Identified 52 unusual sales days: 26 unusually high and 26 unusually low.
+* [x] Imported monitoring datasets into Power BI.
+* [x] Created a Date table and established date relationships.
+* [x] Created daily sales, anomaly, store decline and widespread alert KPI measures.
 
-Database setup, data import, and initial data quality checks are complete.
-Daily sales trend analysis is in progress. The complete trend export
-and subsequent analytical results are pending.
+### In Progress
 
-## Limitations
+* [ ] Build the Power BI executive overview.
+* [ ] Create anomaly and store monitoring visuals.
+* [ ] Validate the complete Power BI data model.
+* [ ] Consolidate findings into business recommendations.
 
-This project uses historical sales data. Sales declines and unusual patterns will not automatically establish their causes.
+### Remaining
 
-All conclusions and performance claims will be based on verified analytical results.
+* [ ] Review and finalize detection methodology.
+* [ ] Complete appropriate model evaluation.
+* [ ] Document limitations and findings.
+* [ ] Capture dashboard screenshots.
+* [ ] Finalize GitHub documentation.
+
+### Current Status
+
+The project has completed its initial exploratory analysis and rule-based anomaly detection stages. Existing analytical outputs have been imported into Power BI, and the initial KPI measures have been created.
+
+The executive dashboard is currently under development.
+
+### Important Limitation
+
+Detected anomalies and potential sales declines are investigation signals, not proof of business problems or their causes. The detection thresholds and methodology require appropriate validation before operational use.
+ be based on verified analytical results.
