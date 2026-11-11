@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=0C0F5E&center=true&vCenter=true&width=800&lines=SignalSentinel+AI;Intelligent+Business+Early-Warning+System" alt="SignalSentinel AI" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=0C0F5E&center=true&vCenter=true&width=850&lines=SignalSentinel+AI;Intelligent+Business+Early-Warning+System&height=100" alt="SignalSentinel AI" />
 </h1>
 
 <h3 align="center">
