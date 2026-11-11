@@ -25,8 +25,6 @@
 </p>
 
 ---
-# SignalSentinel AI
-### Intelligent Business Early-Warning System
 
 ##  Project Overview
 
