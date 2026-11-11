@@ -442,7 +442,7 @@ It provides a practical example of how data analytics and machine learning can s
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 <p align="center">
   <b>Anjeet Yadav</b><br>
@@ -450,11 +450,17 @@ It provides a practical example of how data analytics and machine learning can s
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/anjeet-yadav-573970227/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://anjeetyadav.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-0C0F5E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
   <a href="https://github.com/anjeetyadav">
-    <img src="https://img.shields.io/badge/GitHub-Anjeet%20Yadav-181717?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://www.kaggle.com/anjeetyadav">
-    <img src="https://img.shields.io/badge/Kaggle-Anjeet%20Yadav-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
   </a>
 </p>
 
