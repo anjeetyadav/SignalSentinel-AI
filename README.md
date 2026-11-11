@@ -1,35 +1,27 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1500&color=0C0F5E&center=true&vCenter=true&width=850&height=70&lines=SignalSentinel+AI;Retail+Analytics+%7C+ML+Anomaly+Detection" alt="SignalSentinel AI" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=0C0F5E&center=true&vCenter=true&width=850&lines=SignalSentinel+AI;Intelligent+Business+Early-Warning+System&height=100" alt="SignalSentinel AI" />
 </h1>
 
-<h3 align="center">Intelligent Business Early-Warning System</h3>
-
-<p align="center">
-  Detecting Unusual Sales Behaviour • Monitoring Store Performance • Supporting Business Decisions
-</p>
+<h3 align="center">
+  Detecting Sales Anomalies • Monitoring Business Risk • Generating Insights
+</h3>
 
 <p align="center">
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   </a>
   <a href="https://www.postgresql.org/">
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
   </a>
   <a href="https://pandas.pydata.org/">
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
   </a>
   <a href="https://scikit-learn.org/">
-    <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn">
+    <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
   </a>
   <a href="https://powerbi.microsoft.com/">
-    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
   </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-Data%20Analytics-0C0F5E?style=flat-square">
-  <img src="https://img.shields.io/badge/ML-Isolation%20Forest-6A5ACD?style=flat-square">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square">
 </p>
 
 ---
