@@ -26,9 +26,9 @@
 
 ---
 
-#SignalSentinel AI
+# SignalSentinel AI
 
-##Intelligent Business Early-Warning System
+## Intelligent Business Early-Warning System
 
 **SignalSentinel AI** is an intelligent business early-warning system designed to identify unusual retail sales behaviour, detect potential store-level sales declines, and highlight business patterns that may require further investigation.
 
