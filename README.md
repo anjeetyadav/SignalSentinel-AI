@@ -1,7 +1,4 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=110B3DDB&width=435&lines=SignalSentinel+AI)](https://git.io/typing-svg)
-
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=110B3DDB&width=435&lines=SignalSentinel+AI" alt="Typing SVG" /></a>
 # SignalSentinel AI
 ### Intelligent Business Early-Warning System
 
