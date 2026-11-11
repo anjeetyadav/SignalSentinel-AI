@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=110B3DDB&width=435&lines=SignalSentinel+AI;Intelligent+Business+Early-Warning+System;1.+Retail+Analytics+%7C+Machine+Learning+%7C+Anomaly+Detection)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=110B3DDB&width=435&lines=SignalSentinel+AI;Intelligent+Business+Early-Warning+System;Retail+Analytics+%7C+Machine+Learning+%7C+Anomaly+Detection)](https://git.io/typing-svg)
 
 # SignalSentinel AI
 ### Intelligent Business Early-Warning System
