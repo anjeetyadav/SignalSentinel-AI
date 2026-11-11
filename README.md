@@ -40,15 +40,15 @@ SignalSentinel AI is an intelligent business early-warning system
 designed to identify unusual retail sales patterns, detect potential
 sales declines, and support data-driven business investigations.
 
-### ⚡ Project Workflow
+## ⚡ Project Workflow
 
 ```mermaid
 flowchart LR
-    A[Retail Sales Data] --> B[PostgreSQL]
-    B --> C[Python Analytics]
-    C --> D[Anomaly Detection]
-    D --> E[Power BI Dashboard]
-    E --> F[Business Insights]
+    A["Retail Sales Data"] --> B["PostgreSQL"]
+    B --> C["Python Analytics"]
+    C --> D["Isolation Forest"]
+    D --> E["Power BI Dashboard"]
+    E --> F["Business Insights"]
 ## 1. Project Objective
 
 Retail businesses generate large volumes of daily sales data. Identifying unusual changes, understanding sales patterns, and detecting potential performance issues across multiple stores can be challenging.
