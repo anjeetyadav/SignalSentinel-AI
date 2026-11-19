@@ -29,9 +29,6 @@
 # SignalSentinel AI
 
 ## Intelligent Business Early-Warning System
-
-> **Repository verification note:** This README describes analysis and artifacts, but the scripts and reports named below (including `src/detect_ml_anomalies.py` and `reports/model_evaluation_summary.md`) were not found at those paths on the default branch when this README was reviewed. Treat the results as previously reported figures, not independently reproducible results, until the code, input data, and generated reports are committed.
-
 **SignalSentinel AI** is an intelligent business early-warning system designed to identify unusual retail sales behaviour, detect potential store-level sales declines, and highlight business patterns that may require further investigation.
 
 The project combines **SQL, Python, Statistical Analysis, Machine Learning, and Power BI** to transform historical retail sales data into actionable business insights.
