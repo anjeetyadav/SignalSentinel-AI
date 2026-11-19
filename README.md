@@ -30,6 +30,8 @@
 
 ## Intelligent Business Early-Warning System
 
+> **Repository verification note:** This README describes analysis and artifacts, but the scripts and reports named below (including `src/detect_ml_anomalies.py` and `reports/model_evaluation_summary.md`) were not found at those paths on the default branch when this README was reviewed. Treat the results as previously reported figures, not independently reproducible results, until the code, input data, and generated reports are committed.
+
 **SignalSentinel AI** is an intelligent business early-warning system designed to identify unusual retail sales behaviour, detect potential store-level sales declines, and highlight business patterns that may require further investigation.
 
 The project combines **SQL, Python, Statistical Analysis, Machine Learning, and Power BI** to transform historical retail sales data into actionable business insights.
@@ -115,15 +117,17 @@ Analyzed daily sales performance across the historical dataset.
 
 | Metric | Result |
 |---|---:|
-| Average daily sales | 34,342 units |
-| Highest observed daily sales | 57,218 units |
-| Lowest observed daily sales | 11 units |
+| Reported average daily sales | 34,342 units |
+| Reported highest daily sales | 57,218 units |
+| Reported lowest daily sales | 11 units |
+
+These are the values previously reported for the project. The calculation script and aggregation level are not available at the documented path, so the README cannot confirm whether these are totals across all stores or another aggregation. Do not compare them with per-store figures without that definition.
 
 ### 2. Weekly Sales Patterns
 
 Identified differences in sales behaviour across weekdays.
 
-| Weekday | Average Daily Sales |
+| Weekday | Reported average daily sales (units; aggregation not verified) |
 |---|---:|
 | Saturday | 41,547 |
 | Sunday | 41,130 |
@@ -169,7 +173,7 @@ A potential decline alert is generated when the recent average is at least **15%
 | Stores monitored | 10 |
 | Store-day records analyzed | 18,790 |
 | Potential decline alerts | 720 |
-| Alert rate | 3.83% |
+| Alert rate | 3.83% of analyzed store-day records (720 / 18,790) |
 
 **Note:** The 15% threshold is exploratory and has not been independently validated.
 
@@ -253,7 +257,7 @@ Two Isolation Forest approaches were compared using the same 3,710 test records.
 | Original-only detections | 189 | — |
 | Adjusted-only detections | — | 90 |
 | Rule-based alerts | 98 | 98 |
-| Rule-alert coverage | 93.88% | 74.49% |
+| Rule alerts also flagged by model (share of 98 rule alerts) | 93.88% (92 / 98) | 74.49% (73 / 98) |
 
 ### Weekday-Adjusted Model Results
 
@@ -266,20 +270,15 @@ Two Isolation Forest approaches were compared using the same 3,710 test records.
 | Both methods flagged | 73 |
 | ML-only detections | 301 |
 | Rule-only detections | 25 |
-| Rule-alert coverage | 74.49% |
+| Rule alerts also flagged by adjusted model (73 / 98 rule alerts) | 74.49% |
 
 ### Weekend Anomaly Comparison
 
-| Weekday | Original Model | Adjusted Model |
-|---|---:|---:|
-| Saturday | 21.70% | 12.26% |
-| Sunday | 20.00% | 11.70% |
-
-**Key Observation:** The weekday-adjusted model reduced weekend anomaly concentration.
+The README previously listed weekend anomaly percentages, but the denominator and calculation are not documented and the analysis script is unavailable at its documented path. Those percentages are omitted here until the calculation can be verified.
 
 The weekday-adjusted model was selected as the primary experimental model because of its changed anomaly distribution after weekday-aware feature engineering.
 
-> **Evaluation limitation:** Rule-based alerts are comparison references, not verified ground-truth labels. Rule-alert coverage must not be interpreted as model accuracy.
+> **Evaluation limitation:** Rule-based alerts are comparison references, not verified ground-truth labels. This overlap measure must not be interpreted as model accuracy. The scripts and report artifacts needed to reproduce these figures were not available at their documented paths during this review.
 
 ---
 
@@ -289,13 +288,7 @@ Developed an interactive Power BI dashboard to monitor historical sales performa
 
 ### Dashboard Preview
 
-**Add your actual Power BI dashboard screenshot here.**
-
-Save the screenshot in your repository as `assets/dashboard.png`.
-
-<p align="center">
-  <img src="assets/dashboard.png" width="100%" alt="SignalSentinel AI Power BI Dashboard">
-</p>
+No dashboard screenshot was available at the documented path during this review. Add a committed `assets/dashboard.png` before presenting the dashboard as a verified repository artifact.
 
 ### Dashboard Features
 
@@ -362,69 +355,22 @@ The system highlights potential issues; business teams must investigate the unde
 
 ##  Project Structure
 
-```text
-SignalSentinel-AI/
-│
-├── assets/
-│   ├── dashboard.png
-│   └── dashboard-demo.gif
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│
-├── src/
-│   ├── analyze_daily_sales.py
-│   ├── analyze_weekly_patterns.py
-│   ├── analyze_monthly_patterns.py
-│   ├── analyze_year_end_patterns.py
-│   ├── detect_store_declines.py
-│   ├── detect_weekday_anomalies.py
-│   └── detect_ml_anomalies.py
-│
-├── sql/
-│
-├── dashboards/
-│   └── SignalSentinel AI.pbix
-│
-├── models/
-│   └── isolation_forest_weekday_adjusted.pkl
-│
-├── reports/
-│   ├── daily_sales_totals.csv
-│   ├── monthly_sales_summary.csv
-│   ├── yearly_sales_summary.csv
-│   ├── weekday_sales_summary.csv
-│   ├── store_decline_analysis.csv
-│   ├── weekday_adjusted_anomalies.csv
-│   ├── ml_anomaly_weekday_adjusted_test.csv
-│   ├── ml_anomaly_weekday_summary.csv
-│   ├── model_comparison_summary.csv
-│   └── model_evaluation_summary.md
-│
-└── README.md
-```
+The README previously listed scripts, datasets, reports, a trained model, and a Power BI file. Those paths were not verifiable on the default branch during this review. To keep the project map accurate, add a directory tree here after the artifacts are committed.
 
 ---
 
 ##  Project Status
 
-| Component | Status |
+| Component | Status on the default branch |
 |---|---|
-| Dataset Preparation | Completed |
-| PostgreSQL Integration | Completed |
-| Exploratory Data Analysis | Completed |
-| Daily, Weekly and Monthly Analysis | Completed |
-| Rule-Based Decline Detection | Completed |
-| Statistical Anomaly Detection | Completed |
-| Isolation Forest Implementation | Completed |
-| Chronological Model Evaluation | Completed |
-| Model Comparison | Completed |
-| Power BI Dashboard | Completed |
-| ML Evaluation Documentation | Completed |
-| Production Deployment | Future Improvement |
+| Analysis scripts and SQL | Not available at the paths previously listed |
+| Input dataset | Referenced, but not included at the documented paths |
+| Report and evaluation outputs | Not available at the paths previously listed |
+| Trained model | Referenced, but not available at the documented path |
+| Power BI dashboard and preview image | Referenced, but not available at the documented paths |
+| Production deployment | Not documented |
+
+The earlier README marked several components as completed. Those claims could not be verified from the files available at their documented paths. Update this table when the implementation artifacts are committed.
 
 ---
 
