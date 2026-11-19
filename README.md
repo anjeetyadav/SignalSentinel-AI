@@ -275,10 +275,6 @@ The README previously listed weekend anomaly percentages, but the denominator an
 
 The weekday-adjusted model was selected as the primary experimental model because of its changed anomaly distribution after weekday-aware feature engineering.
 
-> **Evaluation limitation:** Rule-based alerts are comparison references, not verified ground-truth labels. This overlap measure must not be interpreted as model accuracy. The scripts and report artifacts needed to reproduce these figures were not available at their documented paths during this review.
-
----
-
 ##  Power BI Dashboard
 
 Developed an interactive Power BI dashboard to monitor historical sales performance and investigate detected anomalies.
