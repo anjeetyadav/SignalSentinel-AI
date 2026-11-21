@@ -1,0 +1,3 @@
+has_recorded_event,days,average_stores_flagged,days_with_5plus_alerts,days_with_all_10_alerts,widespread_alert_rate_percent
+False,1728,0.39,24,2,1.39
+True,151,0.34,1,0,0.66

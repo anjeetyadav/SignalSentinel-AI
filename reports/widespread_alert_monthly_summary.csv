@@ -1,0 +1,13 @@
+month_name,days,widespread_alert_days,average_stores_flagged,widespread_alert_rate_percent
+January,155,0,0.21,0.0
+February,142,0,0.05,0.0
+March,183,0,0.39,0.0
+April,174,2,0.44,1.15
+May,155,0,0.21,0.0
+June,150,0,0.14,0.0
+July,155,0,0.37,0.0
+August,155,0,0.16,0.0
+September,150,0,0.27,0.0
+October,155,3,0.58,1.94
+November,150,4,0.53,2.67
+December,155,16,1.21,10.32
