@@ -406,3 +406,22 @@ It provides a practical example of how data analytics and machine learning can s
 <p align="center">
   <sub>Historical anomaly detections are experimental and should not be treated as verified business incidents or production-ready predictions.</sub>
 </p>
+---
+
+##  Contributing
+
+Contributions are welcome!
+
+You can help improve SignalSentinel AI through:
+- Machine Learning and anomaly detection
+- Explainable AI
+- Data analytics and Power BI dashboards
+- Automated alerts and notifications
+- Docker and project engineering
+- Documentation and testing
+
+**Looking to contribute?**
+
+Check our [Open Issues](https://github.com/anjeetyadav/SignalSentinel-AI/issues) to find tasks and proposed enhancements.
+
+Please review an issue and discuss your approach before starting substantial work.
