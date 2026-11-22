@@ -1,0 +1,5 @@
+method,description,alert_store_days,alert_rate_pct,dates_with_any_alert,widespread_dates_ge5,all_10_stores_dates,widespread_in_december,alerts_dec25_to_31,yearly_rate_std
+A,Original 7d vs 28d,714,3.9,380,25,2,16,154,1.43
+B,Calendar-aware (Christmas excluded),593,3.24,370,12,0,3,15,1.16
+C,Weekday-adjusted,785,4.28,396,29,2,19,160,1.69
+D,Weekday-adjusted + Christmas excluded,661,3.61,390,12,0,2,17,1.5

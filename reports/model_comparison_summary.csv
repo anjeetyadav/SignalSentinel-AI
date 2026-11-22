@@ -1,0 +1,10 @@
+metric,value
+Common test records,3710.0
+Original model anomalies,473.0
+Weekday-adjusted anomalies,374.0
+Both models flagged,284.0
+Original model only,189.0
+Adjusted model only,90.0
+Rule-based alerts,98.0
+Original rule-alert coverage (%),93.88
+Adjusted rule-alert coverage (%),74.49

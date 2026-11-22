@@ -1,0 +1,31 @@
+event_name,event_type,occurrences,avg_ratio,min_ratio,max_ratio
+Christmas,National,5,0.0,0.0,0.001
+Thanksgiving,National,5,0.702,0.637,0.761
+NewYear,National,5,0.803,0.63,0.898
+Mother's day,Cultural,5,0.858,0.817,0.881
+Easter,Cultural,5,0.88,0.798,0.938
+Halloween,Cultural,5,0.896,0.856,0.967
+Father's day,Cultural,4,0.918,0.898,0.947
+ValentinesDay,Cultural,6,0.958,0.908,1.031
+StPatricksDay,Cultural,6,0.965,0.93,1.012
+Eid al-Fitr,Religious,5,0.965,0.884,1.021
+OrthodoxEaster,Religious,4,0.968,0.797,1.04
+IndependenceDay,National,5,0.979,0.825,1.076
+Pesach End,Religious,5,0.986,0.847,1.142
+SuperBowl,Sporting,6,0.988,0.921,1.09
+NBAFinalsEnd,Sporting,5,0.99,0.917,1.083
+Purim End,Religious,6,0.994,0.917,1.07
+MemorialDay,National,5,0.995,0.947,1.054
+Ramadan starts,Religious,5,1.008,0.919,1.117
+EidAlAdha,Religious,5,1.011,0.922,1.076
+LentWeek2,Religious,6,1.015,0.901,1.118
+MartinLutherKingDay,National,5,1.017,0.967,1.069
+OrthodoxChristmas,Religious,5,1.022,0.942,1.08
+Chanukah End,Religious,5,1.025,0.925,1.121
+Cinco De Mayo,Cultural,4,1.026,0.984,1.074
+NBAFinalsStart,Sporting,5,1.034,0.889,1.099
+LentStart,Religious,6,1.055,0.887,1.339
+PresidentsDay,National,6,1.061,1.002,1.196
+VeteransDay,National,5,1.07,0.989,1.116
+ColumbusDay,National,5,1.085,0.981,1.147
+LaborDay,National,5,1.256,1.164,1.343
