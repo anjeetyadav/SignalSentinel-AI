@@ -14,10 +14,6 @@ venv/
 # Local environment variables
 .env
 
-# Generated model files
-models/*.pkl
-models/*.joblib
-
 # Operating system files
 .DS_Store
 Thumbs.db
